@@ -1,0 +1,31 @@
+{
+  "name": "@rassul/lock-fix",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Fix merge conflicts in package manager lockfiles — supports npm, yarn, pnpm, and bun",
+  "bin": {
+    "lock-fix": "./index.js"
+  },
+  "type": "module",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "author": "Rassul Tabulov <rasul.tabulov@gmail.com>",
+  "keywords": [
+    "lockfile",
+    "merge-conflict",
+    "npm",
+    "yarn",
+    "pnpm",
+    "bun",
+    "git"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtabulov/lock-fix"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
