@@ -1,6 +1,6 @@
 {
   "name": "@rassul/lock-fix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Fix merge conflicts in package manager lockfiles — supports npm, yarn, pnpm, and bun",
   "bin": {

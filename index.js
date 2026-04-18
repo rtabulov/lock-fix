@@ -16,5 +16,5 @@ if (!match) { console.error('No lockfile found'); process.exit(1) }
 const [lockfile, cmd] = match
 execSync(`git restore --staged "${lockfile}"`, { stdio: 'inherit' })
 execSync(`git restore "${lockfile}"`,          { stdio: 'inherit' })
-execSync(`${cmd} install`,                     { stdio: 'inherit' })
+execSync(`${cmd} install --silent`,            { stdio: 'inherit' })
 execSync(`git add "${lockfile}"`,              { stdio: 'inherit' })
